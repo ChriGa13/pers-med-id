@@ -1,0 +1,29 @@
+{
+  "name": "pers-med-id",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~5.0.1",
+    "@fitbit/sdk-cli": "^1.7.3",
+    "fitbit-sdk-types": "^6.0.1"
+  },
+  "fitbit": {
+    "appUUID": "d8ec3463-9d40-4ad8-ae54-e27e53f29094",
+    "appType": "app",
+    "appDisplayName": "Persmedid",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}
