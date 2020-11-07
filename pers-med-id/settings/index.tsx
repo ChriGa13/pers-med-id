@@ -1,13 +1,3 @@
-registerSettingsPage(({ settings }) => (
-  <Page>
-    <Section
-      title={
-        <Text bold align="center">
-          App Settings
-        </Text>
-      }
-    >
-      <Text>Hello world!</Text>
-    </Section>
-  </Page>
-));
+import { persMedIdSettings } from "./pages/persmedid-settings";
+
+registerSettingsPage(persMedIdSettings);

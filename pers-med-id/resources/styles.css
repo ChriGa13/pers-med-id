@@ -1,12 +1,17 @@
-.defaultText {
+.d-flex {
+  display: flex;
+}
+
+.heading {
   font-size: 32;
   font-family: System-Regular;
-  font-weight: regular;
+  font-weight: bold;
   text-length: 32;
+  fill: white;
 }
 
 #background {
   width: 100%;
   height: 100%;
-  fill: white;
+  fill: black;
 }
